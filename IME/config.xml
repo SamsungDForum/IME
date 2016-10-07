@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets"
-        xmlns:tizen="http://tizen.org/ns/widgets"
-        id="http://yourdomain/IME"
-        version="1.1.0"
-        viewmodes="maximized">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/IME" version="1.1.0" viewmodes="maximized">
     <access origin="*" subdomains="true"></access>
-    <tizen:application id="demoapp010.IME"
-                       package="demoapp010"
-                       required_version="2.3"/>
+    <tizen:application id="oM8Qv59vqt.IME" package="oM8Qv59vqt" required_version="2.3"/>
     <content src="index.html"/>
     <feature name="http://tizen.org/feature/screen.size.all"/>
     <icon src="icon.png"/>
