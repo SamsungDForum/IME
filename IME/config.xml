@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/IME" version="1.1.0" viewmodes="maximized">
-    <access origin="*" subdomains="true"></access>
-    <tizen:application id="oM8Qv59vqt.IME" package="oM8Qv59vqt" required_version="2.3"/>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/IME" version="0.2.1" viewmodes="maximized">
+    <tizen:application id="ZUBC1N3v3w.IME" package="ZUBC1N3v3w" required_version="2.3"/>
     <content src="index.html"/>
-    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <feature name="http://tizen.org/feature/screen.size.normal.1080.1920"/>
     <icon src="icon.png"/>
+    <tizen:metadata key="http://samsung.com/tv/metadata/prelaunch.support" value="true"/>
     <name>IME</name>
-    <tizen:privilege name="http://tizen.org/privilege/tv.inputdevice"/>
-    <tizen:profile name="tv"/>
+    <tizen:profile name="tv-samsung"/>
 </widget>
